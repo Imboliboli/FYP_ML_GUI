@@ -29,7 +29,7 @@ class MyGui(tk.Tk):
 class StartPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
-        img = ImageTk.PhotoImage(Image.open("/Users/geraldine/PycharmProjects/GitTest/images/images.jpeg"))
+        img = ImageTk.PhotoImage(Image.open("images"))
         label = tk.Label(self, image = img)
         label.image = img
         label.pack()
